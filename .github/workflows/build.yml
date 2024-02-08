@@ -2,6 +2,9 @@ name: build
 on:
   push:
   pull_request:
+  watch:
+   types: [started]
+  
 
 jobs:
   install_pa_sources:
